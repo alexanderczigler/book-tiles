@@ -28,11 +28,12 @@ router.post('/', async (ctx) => {
 
 // NOTE: Keeping the example stuff for reference.
 
-router.get('/tiles', async (ctx) => {
+router.get('/books', async (ctx) => {
   ctx.body = [
     {
+      author: 'Dolly Alderton',
+      cover: 'https://cdn.thestorygraph.com/ao5gyu1swunqoit0shtyayjzgc5i',
       title: 'Ghosts',
-      cover: 'https://cdn.thestorygraph.com/ao5gyu1swunqoit0shtyayjzgc5i'
     }
   ]
 })
